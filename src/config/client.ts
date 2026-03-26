@@ -30,8 +30,8 @@ export const client = {
   twitter: "",
 
   // Reviews
-  googleRating: "5.0",
-  reviewCount: "0",
+  googleRating: "5",
+  reviewCount: "2",
 
   // Services
   services: [
@@ -79,9 +79,8 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "Happy Customer", rating: 5, text: "Excellent work, very professional team. Would highly recommend to anyone looking for quality landscaping.", date: "2025" },
-    { name: "Satisfied Client", rating: 5, text: "Transformed our garden completely. Great communication throughout the project.", date: "2025" },
-    { name: "Local Resident", rating: 5, text: "Reliable, punctual and the finished result exceeded our expectations.", date: "2025" },
+    { name: "John Bartram", rating: 5, text: "Himalayan Landscaping have built a fantastic new front garden for us. Everything went according to Dhundi's meticulous plans despite the lockdown restrictions and nothing was too much trouble. We will be recommending them to others. ", date: "4 years ago" },
+    { name: "East Bhusal", rating: 5, text: "Fantastic and friendly yet professional service! ", date: "3 years ago" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
