@@ -79,8 +79,10 @@ export const client = {
 
   // Reviews — placeholder
   reviews: [
-    { name: "John Bartram", rating: 5, text: "Himalayan Landscaping have built a fantastic new front garden for us. Everything went according to Dhundi's meticulous plans despite the lockdown restrictions and nothing was too much trouble. We will be recommending them to others. ", date: "4 years ago" },
-    { name: "East Bhusal", rating: 5, text: "Fantastic and friendly yet professional service! ", date: "3 years ago" },
+    { name: "Sally H", rating: 5, text: "Dhundi’s work is meticulous and of the highest standard. He transformed the waterlogged mud patch I had inherited into a beautiful garden which has been much admired. He is such a lovely person to work with and I thoroughly recommend him.", date: "a year ago" },
+    { name: "East Bhusal", rating: 5, text: "Fantastic and friendly yet professional service!", date: "3 years ago", badge: "Local Guide" },
+    { name: "John Bartram", rating: 5, text: "Himalayan Landscaping have built a fantastic new front garden for us. Everything went according to Dhundi's meticulous plans despite the lockdown restrictions and nothing was too much trouble. We will be recommending them to others.", date: "4 years ago" },
+    { name: "Himani madhu", rating: 4, text: "Thank you for your review.", date: "6 years ago", badge: "Local Guide" },
   ] as { name: string; rating: number; text: string; date: string; badge?: string }[],
 
   // SEO
